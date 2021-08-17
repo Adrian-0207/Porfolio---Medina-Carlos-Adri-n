@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+body {
+    background: url('img/fondo2.webp') no-repeat;
+    background-size: cover;
+    font-family: 'Century Gothic', sans-serif;
+
+}
+
+.box {
+    width: 500px;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+.box h2 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 20px 0 5px;
+    text-align: left;
+}
+
+.box p {
+    text-align: justify;
+}
+
+.box ul {
+    list-style: none;
+    margin-top: 1px;
+}
+
+.box ul a {
+    color: white;
+    font-size: 45px;
+    padding: 5px 5px;
+    
+}
+
+.box ul a:hover {
+    color: #b9b9b9;
+    transform: scale(1,3);
+}
